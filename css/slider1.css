@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    padding:0;
+    margin:0; 
+	background: #FFFFFF;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+} 
+
+#banner{   
+	position: absolute; 
+	width:100vw;
+	height:100vh;
+	left:0;
+	top:0;
+}     
+
+.oneByOne1{
+	top: 0px;
+	left: 0px;  
+	margin: 0;
+	width: 100vw;
+	height: 100vh;   
+	/*background: #EFEFEF url(../images/assets/paven.png) repeat;*/
+	background-color: #0074bf;
+	position: relative;
+	overflow: hidden;
+
+}  
+
+.green {
+	background-color: #3bad65;
+	
+}
+
+.bold {
+	font-weight: 600;
+}
+
+#banner .oneByOne_item{
+	position: absolute;
+	width: 100vw;
+	height:112vh;  
+	overflow: hidden;  
+	display: none;
+	top:0vh;
+}         
+                      
+#banner .oneByOne_item span{
+	font-family: 'Raleway', sans-serif;
+}                                                                                              
+
+#banner .oneByOne_item a{
+	text-decoration: none;
+	color: #B22222;
+}
+              
+
+
+#banner .oneByOne_item span.slide2Txt1{ 
+  	position: relative;
+	float: left;
+	margin: 120px 12px 0 120px;
+	color: #FFFFFF;	
+	font-size: 24px;  
+	padding: 8px;             
+}
+ 
+#banner .oneByOne_item span.slide2Txt2{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 6px 12px 0 120px;
+	color: #FFFFFF;	
+	font-size: 14px;  
+	padding: 8px;             
+}   
+
+#banner .oneByOne_item span.slide2Txt3{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 6px 12px 0 120px;
+	color: #FFFFFF;	
+	font-size: 12px;  
+	padding: 8px;             
+}     
+                    
+#banner img.createImg1{
+	position: absolute;
+	top: 25vh;
+	left: 60vw;
+	width:35vw;
+}
+#banner img.createImg2{
+	position: absolute;
+	top: 25vh;
+	left: 60vw;
+	width:35vw;
+}              
+#banner img.createImg3{
+	position: absolute;
+	top: 25vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner img.createImg4{
+	position: absolute;
+	top: 25vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner img.displayImg1{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}
+#banner img.displayImg2{
+	position: absolute;
+	top: 30vh;
+	left: 67vw;
+	width:30vw;
+}
+
+#banner img.displayImg3{
+	position: absolute;
+	top: 53vh;
+	left: 52vw;
+	width:30vw;
+}  
+
+#banner img.wp1_3{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner img.wp1_4{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner .oneByOne_item span.aboutTxt1{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #ffffff;
+	font-size: 4vw;
+	width:80vw;
+	font-weight: 300;
+
+}
+ 
+#banner .oneByOne_item span.aboutTxt2{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;   
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:90vw;
+	font-weight: 200;
+}  
+
+#banner .oneByOne_item span.createTxt1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #FFFFFF;
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 500;
+} 
+       
+#banner .oneByOne_item span.createTxt2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 200;
+}
+
+#banner .oneByOne_item span.displayTxt1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #FFFFFF;
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 500;
+} 
+       
+#banner .oneByOne_item span.displayTxt2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 200;
+}    
+    
+#banner img.aboutImg1{
+	position: absolute;
+	top: 61vh;
+	left: 10vw;
+	width:18vw
+}
+#banner img.aboutImg2{
+	position: absolute;
+	top: 63vh;
+	left: 40vw;
+	width:15vw
+}              
+#banner img.aboutImg3{
+	position: absolute;
+	top: 63vh;
+	left: 70vw;
+	width:15vw
+}
+
+#banner img.manageImg1{
+	position: absolute;
+	top:43vh;
+	left: 10vw;
+	width:25vw
+}
+#banner img.manageImg2{
+	position: absolute;
+	top: 43vh;
+	left: 40vw;
+	width:25vw
+}              
+#banner img.manageImg3{
+	position: absolute;
+	top: 43vh;
+	left: 70vw;
+	width:25vw
+}   
+
+#banner .oneByOne_item span.wp1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 120px 12px 0 60px;    
+	padding: 8px;
+	color: #FFFFFF;
+	font-size: 40px;
+} 
+#banner .oneByOne_item span.wp1 a{
+	color: #FFFFFF;
+}         
+#banner .oneByOne_item span.wp2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 12px 12px 0 60px; 
+	
+	color: #FFFFFF;  
+	padding: 8px;
+	font-size: 16px;
+}                  
+
+#banner .oneByOne_item img.bigImage{ 
+	position: absolute;
+	top: 0; 
+	left: 0;
+
+}
+
+#banner .oneByOne_item span.manageTxt1{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #FFFFFF;
+	font-size: 3vw;
+	width:80vw;
+	font-weight: 600;      
+}
+ 
+#banner .oneByOne_item span.manageTxt2{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:90vw;
+	font-weight: 200;            
+}  
+
+.clear{
+	clear: both;
+}

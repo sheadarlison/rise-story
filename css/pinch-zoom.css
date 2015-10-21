@@ -1,0 +1,54 @@
+body,
+html{
+    text-align: center;
+    color: white;
+}
+
+
+html, body{
+    background-color: #333;
+    font-family: Arial;
+	margin: 0;
+	width:100vw;
+	height:100vh;
+}
+
+
+
+div.image1{
+	top:20vh;
+	left:5vw;
+    width: 35vw;
+    position: absolute;
+	z-index: 9999;
+	float:left;
+	-webkit-transform-style: preserve-3d;
+}
+
+div.image2{
+	position: absolute;
+	top:20vh;
+	left:50vw;
+    width: 35vw;
+    -webkit-transform-style: preserve-3d;
+}
+
+
+div.pinch-zoom {
+    position: relative;
+}
+
+.clip-circle {
+-webkit-clip-path: circle(100px at center);
+}
+
+div.pinch-zoom-container {
+	height:400px !important;
+}
+
+@media (min-width: 2000px) {
+  div.pinch-zoom-container {
+	height:800px !important;
+}
+
+}	

@@ -1,0 +1,313 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    padding:0;
+    margin:0; 
+	background: #FFFFFF;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+} 
+
+#banner3{   
+	position: absolute;   
+}     
+
+.oneByOne{
+	top: 0px;
+	left: 0px;  
+	margin: 0;
+	width: 100vw;
+	height: 109vh;   
+	position: relative;
+	overflow: hidden;
+
+}  
+
+
+.bold {
+	font-weight: 600;
+}
+
+#banner3 .oneByOne_item{
+	position: absolute;
+	top:0;
+	width: 100vw;
+	height: 109vh;  
+	overflow: hidden;  
+	display: none;
+}         
+                      
+#banner3 .oneByOne_item span{
+	font-family: 'Raleway', sans-serif;
+}                                                                                              
+
+#banner3 .oneByOne_item a{
+	text-decoration: none;
+	color: #B22222;
+}
+              
+
+
+#banner3 .oneByOne_item span.slide2Txt1{ 
+  	position: relative;
+	float: left;
+	margin: 120px 12px 0 120px;
+	color: #FFFFFF;	
+	font-size: 24px;  
+	padding: 8px;             
+}
+ 
+#banner3 .oneByOne_item span.slide2Txt2{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 6px 12px 0 120px;
+	color: #FFFFFF;	
+	font-size: 14px;  
+	padding: 8px;             
+}   
+
+#banner3 .oneByOne_item span.slide2Txt3{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 6px 12px 0 120px;
+	color: #FFFFFF;	
+	font-size: 12px;  
+	padding: 8px;             
+}     
+                    
+#banner3 img.createImg1{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}
+#banner3 img.createImg2{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}              
+#banner3 img.createImg3{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner3 img.createImg4{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}
+
+#banner3 img.wegetImg1{
+	position: absolute;
+	top: 15vh;
+	left: 75vw;
+	width:22vw;
+}
+#banner3 img.wegetImg2{
+	position: absolute;
+	top: 40vh;
+	left: 60vw;
+	width:20vw;
+}              
+#banner3 img.wegetImg3{
+	position: absolute;
+	top: 50vh;
+	left: 80vw;
+	width:20vw;
+}  
+
+#banner3 img.displayImg1{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}
+#banner3 img.displayImg2{
+	position: absolute;
+	top: 30vh;
+	left: 67vw;
+	width:30vw;
+}
+
+#banner3 img.displayImg3{
+	position: absolute;
+	top: 53vh;
+	left: 52vw;
+	width:30vw;
+}  
+
+#banner3 img.wp1_3{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner3 img.wp1_4{
+	position: absolute;
+	top: 20vh;
+	left: 60vw;
+	width:35vw;
+}  
+
+#banner3 .oneByOne_item span.aboutTxt1{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #ffffff;
+	font-size: 4vw;
+	width:80vw;
+	font-weight: 300;
+
+}
+ 
+#banner3 .oneByOne_item span.aboutTxt2{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:80vw;
+	font-weight: 200;
+}  
+
+#banner3 .oneByOne_item span.createTxt1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #FFFFFF;
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 500;
+} 
+       
+#banner3 .oneByOne_item span.createTxt2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 200;
+}
+
+#banner3 .oneByOne_item span.displayTxt1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #FFFFFF;
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 500;
+} 
+       
+#banner3 .oneByOne_item span.displayTxt2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:50vw;
+	font-weight: 200;
+}    
+    
+
+ 
+#banner3 img.servicesImg1{
+	position: absolute;
+	top: 53vh;
+	left: 8vw;
+	width:15vw;
+}
+
+#banner3 img.servicesImg2{
+	position: absolute;
+	top: 53vh;
+	left: 31vw;
+	width:15vw;
+}  
+
+#banner3 img.servicesImg3{
+	position: absolute;
+	top: 53vh;
+	left: 54vw;
+	width:15vw;
+} 
+
+#banner3 img.servicesImg4{
+	position: absolute;
+	top: 53vh;
+	left: 77vw;
+	width:15vw;
+}  
+
+#banner3 .oneByOne_item span.wp1{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 120px 12px 0 60px;    
+	padding: 8px;
+	color: #FFFFFF;
+	font-size: 40px;
+} 
+#banner3 .oneByOne_item span.wp1 a{
+	color: #FFFFFF;
+}         
+#banner3 .oneByOne_item span.wp2{
+	clear: left;
+	position: relative;
+	float: left;
+	margin: 12px 12px 0 60px; 
+	
+	color: #FFFFFF;  
+	padding: 8px;
+	font-size: 16px;
+}                  
+
+#banner3 .oneByOne_item img.bigImage{ 
+	position: absolute;
+	top: 0; 
+	left: 0;
+
+}
+
+#banner3 .oneByOne_item span.manageTxt1{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 20vh 5vw 1vh 5vw;    
+	color: #FFFFFF;
+	font-size: 3vw;
+	width:80vw;
+	font-weight: 600;      
+}
+ 
+#banner3 .oneByOne_item span.manageTxt2{ 
+  	clear: left;
+	position: relative;
+	float: left;
+	margin: 0px 5vw 0 5vw;
+	color: #FFFFFF;  
+	font-size: 3vw;
+	width:80vw;
+	font-weight: 200;            
+}  
+
+.clear{
+	clear: both;
+}
