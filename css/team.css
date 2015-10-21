@@ -1,0 +1,124 @@
+.team-list {
+  margin: 32px -10px 0 0;
+  text-align: center;
+}
+
+.team-list .team-member {
+  background: -moz-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.37) 49%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(49%, rgba(255, 255, 255, 0.37)), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.37) 49%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.37) 49%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, white 0%, rgba(255, 255, 255, 0.37) 49%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.37) 49%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+  text-align: left;
+  width: 10%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  padding: 10px 10px 0;
+  margin-bottom: 5px;
+}
+
+.team-list .team-member h5 {
+  position: relative;
+  line-height: 18px;
+  z-index: 1;
+  color: #FFF;
+  margin-top: -86px;
+  margin-bottom: 0;
+  padding: 40px 10px 10px;
+  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.65)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+  /* IE6-9 */
+}
+
+.team-list .team-member h5 span {
+  font-weight: 400;
+  color: #f4f4f4;
+}
+
+.team-list .team-member p {
+  line-height: 1.6em;
+}
+
+@media (max-width: 1200px) {
+  .team-list .team-member {
+    width: 10.5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .team-list .team-member {
+    padding: 5px 5px 0;
+  }
+  .team-list .team-member h5 {
+    padding: 45px 6px 6px;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+  }
+  .team-list .team-member h5 span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-list .team-member {
+    width: 32.3%;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-list .team-member {
+    width: 48%;
+  }
+}
+
+.team-list .team-member img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.team-list .team-member .team-social-icons {
+  width: 50%;
+  padding: 8px;
+  border-top: 3px solid #48B768;
+}
+
+.team-list .team-member .team-social-icons a {
+  display: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .team-list .team-member .team-social-icons {
+    width: 50%;
+  }
+}
+
+.team p {
+  display: none;
+}
+
+.team span {
+  display: none;
+}

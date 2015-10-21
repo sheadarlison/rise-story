@@ -1094,6 +1094,10 @@ p.success {
     font-weight: 600; 
     font-size: 28px;
 }
+
+.team{
+    
+}
 /* mouse grab icon for Owl Carousel */
 .grabbing { 
     cursor:url("../img/grabbing.png") 8 8, move;
