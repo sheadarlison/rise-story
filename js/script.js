@@ -127,5 +127,16 @@ $(document).ready(function() {
 
 	 });
 
-	
+function showDiv() {
+   document.getElementById('bio').style.display = "block";
+}
+function hideDiv() {
+   document.getElementById('bio').style.display = "none";
+}
 
+function showDivTwo() {
+   document.getElementById('bio-2').style.display = "block";
+}
+function hideDivTwo() {
+   document.getElementById('bio-2').style.display = "none";
+}
