@@ -120,46 +120,9 @@
 }
 
 #bio{
-  position: absolute;
   display: none;
-  top: 0vh;
-  left: 0vw;
-  background: rgba(0, 0, 0, 0.9);
-  color: #ffffff;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 1000;
-}
-#bio p{
-  position: absolute;
-  top: 20vh;
-  left: 33.33vw;
-  height: 25vh;
-  width: 33.33vw;
-  margin: 0 auto;
 }
 
-#bio-2{
-  position: absolute;
-  display: none;
-  top: 0vh;
-  left: 0vw;
-  background: rgba(0, 0, 0, 0.9);
-  color: #ffffff;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 1000;
-}
-#bio-2 p{
-  position: absolute;
-  top: 20vh;
-  left: 33.33vw;
-  height: 25vh;
-  width: 33.33vw;
-  margin: 0 auto;
-}
 
 
 
